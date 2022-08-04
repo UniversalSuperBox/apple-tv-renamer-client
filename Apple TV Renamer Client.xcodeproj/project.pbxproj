@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2382E1DB289C3D4D00BD47AE /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2382E1DA289C3D4D00BD47AE /* Form.swift */; };
 		23DC67CB289C26F5004961D4 /* Apple_TV_Renamer_ClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC67CA289C26F5004961D4 /* Apple_TV_Renamer_ClientApp.swift */; };
 		23DC67CD289C26F5004961D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC67CC289C26F5004961D4 /* ContentView.swift */; };
 		23DC67CF289C2707004961D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DC67CE289C2707004961D4 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		23DC67DC289C2708004961D4 /* Apple_TV_Renamer_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC67DB289C2708004961D4 /* Apple_TV_Renamer_ClientTests.swift */; };
 		23DC67E6289C2708004961D4 /* Apple_TV_Renamer_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC67E5289C2708004961D4 /* Apple_TV_Renamer_ClientUITests.swift */; };
 		23DC67E8289C2708004961D4 /* Apple_TV_Renamer_ClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC67E7289C2708004961D4 /* Apple_TV_Renamer_ClientUITestsLaunchTests.swift */; };
+		23DC67F7289C2958004961D4 /* TextForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC67F6289C2958004961D4 /* TextForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2382E1DA289C3D4D00BD47AE /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 		23DC67C7289C26F4004961D4 /* Apple TV Renamer Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple TV Renamer Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DC67CA289C26F5004961D4 /* Apple_TV_Renamer_ClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_Renamer_ClientApp.swift; sourceTree = "<group>"; };
 		23DC67CC289C26F5004961D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		23DC67E1289C2708004961D4 /* Apple TV Renamer ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple TV Renamer ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DC67E5289C2708004961D4 /* Apple_TV_Renamer_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_Renamer_ClientUITests.swift; sourceTree = "<group>"; };
 		23DC67E7289C2708004961D4 /* Apple_TV_Renamer_ClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_Renamer_ClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23DC67F6289C2958004961D4 /* TextForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,12 @@
 		23DC67C9289C26F4004961D4 /* Apple TV Renamer Client */ = {
 			isa = PBXGroup;
 			children = (
+				23DC67F5289C2937004961D4 /* Forms */,
 				23DC67CA289C26F5004961D4 /* Apple_TV_Renamer_ClientApp.swift */,
 				23DC67CC289C26F5004961D4 /* ContentView.swift */,
 				23DC67CE289C2707004961D4 /* Assets.xcassets */,
 				23DC67D0289C2707004961D4 /* Preview Content */,
+				2382E1DA289C3D4D00BD47AE /* Form.swift */,
 			);
 			path = "Apple TV Renamer Client";
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 				23DC67E7289C2708004961D4 /* Apple_TV_Renamer_ClientUITestsLaunchTests.swift */,
 			);
 			path = "Apple TV Renamer ClientUITests";
+			sourceTree = "<group>";
+		};
+		23DC67F5289C2937004961D4 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				23DC67F6289C2958004961D4 /* TextForm.swift */,
+			);
+			path = Forms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23DC67F7289C2958004961D4 /* TextForm.swift in Sources */,
+				2382E1DB289C3D4D00BD47AE /* Form.swift in Sources */,
 				23DC67CD289C26F5004961D4 /* ContentView.swift in Sources */,
 				23DC67CB289C26F5004961D4 /* Apple_TV_Renamer_ClientApp.swift in Sources */,
 			);
