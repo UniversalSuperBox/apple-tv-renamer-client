@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23DC67CB289C26F5004961D4 /* Apple_TV_Renamer_ClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC67CA289C26F5004961D4 /* Apple_TV_Renamer_ClientApp.swift */; };
+		23DC67CD289C26F5004961D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC67CC289C26F5004961D4 /* ContentView.swift */; };
+		23DC67CF289C2707004961D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DC67CE289C2707004961D4 /* Assets.xcassets */; };
+		23DC67D2289C2707004961D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DC67D1289C2707004961D4 /* Preview Assets.xcassets */; };
+		23DC67DC289C2708004961D4 /* Apple_TV_Renamer_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC67DB289C2708004961D4 /* Apple_TV_Renamer_ClientTests.swift */; };
+		23DC67E6289C2708004961D4 /* Apple_TV_Renamer_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC67E5289C2708004961D4 /* Apple_TV_Renamer_ClientUITests.swift */; };
+		23DC67E8289C2708004961D4 /* Apple_TV_Renamer_ClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC67E7289C2708004961D4 /* Apple_TV_Renamer_ClientUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23DC67D8289C2707004961D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23DC67BF289C26F4004961D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23DC67C6289C26F4004961D4;
+			remoteInfo = "Apple TV Renamer Client";
+		};
+		23DC67E2289C2708004961D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23DC67BF289C26F4004961D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23DC67C6289C26F4004961D4;
+			remoteInfo = "Apple TV Renamer Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23DC67C7289C26F4004961D4 /* Apple TV Renamer Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple TV Renamer Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DC67CA289C26F5004961D4 /* Apple_TV_Renamer_ClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_Renamer_ClientApp.swift; sourceTree = "<group>"; };
+		23DC67CC289C26F5004961D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23DC67CE289C2707004961D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23DC67D1289C2707004961D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23DC67D7289C2707004961D4 /* Apple TV Renamer ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple TV Renamer ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DC67DB289C2708004961D4 /* Apple_TV_Renamer_ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_Renamer_ClientTests.swift; sourceTree = "<group>"; };
+		23DC67E1289C2708004961D4 /* Apple TV Renamer ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple TV Renamer ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DC67E5289C2708004961D4 /* Apple_TV_Renamer_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_Renamer_ClientUITests.swift; sourceTree = "<group>"; };
+		23DC67E7289C2708004961D4 /* Apple_TV_Renamer_ClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_Renamer_ClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23DC67C4289C26F4004961D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DC67D4289C2707004961D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DC67DE289C2708004961D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23DC67BE289C26F4004961D4 = {
+			isa = PBXGroup;
+			children = (
+				23DC67C9289C26F4004961D4 /* Apple TV Renamer Client */,
+				23DC67DA289C2707004961D4 /* Apple TV Renamer ClientTests */,
+				23DC67E4289C2708004961D4 /* Apple TV Renamer ClientUITests */,
+				23DC67C8289C26F4004961D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23DC67C8289C26F4004961D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23DC67C7289C26F4004961D4 /* Apple TV Renamer Client.app */,
+				23DC67D7289C2707004961D4 /* Apple TV Renamer ClientTests.xctest */,
+				23DC67E1289C2708004961D4 /* Apple TV Renamer ClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23DC67C9289C26F4004961D4 /* Apple TV Renamer Client */ = {
+			isa = PBXGroup;
+			children = (
+				23DC67CA289C26F5004961D4 /* Apple_TV_Renamer_ClientApp.swift */,
+				23DC67CC289C26F5004961D4 /* ContentView.swift */,
+				23DC67CE289C2707004961D4 /* Assets.xcassets */,
+				23DC67D0289C2707004961D4 /* Preview Content */,
+			);
+			path = "Apple TV Renamer Client";
+			sourceTree = "<group>";
+		};
+		23DC67D0289C2707004961D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				23DC67D1289C2707004961D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23DC67DA289C2707004961D4 /* Apple TV Renamer ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				23DC67DB289C2708004961D4 /* Apple_TV_Renamer_ClientTests.swift */,
+			);
+			path = "Apple TV Renamer ClientTests";
+			sourceTree = "<group>";
+		};
+		23DC67E4289C2708004961D4 /* Apple TV Renamer ClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23DC67E5289C2708004961D4 /* Apple_TV_Renamer_ClientUITests.swift */,
+				23DC67E7289C2708004961D4 /* Apple_TV_Renamer_ClientUITestsLaunchTests.swift */,
+			);
+			path = "Apple TV Renamer ClientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23DC67C6289C26F4004961D4 /* Apple TV Renamer Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23DC67EB289C2708004961D4 /* Build configuration list for PBXNativeTarget "Apple TV Renamer Client" */;
+			buildPhases = (
+				23DC67C3289C26F4004961D4 /* Sources */,
+				23DC67C4289C26F4004961D4 /* Frameworks */,
+				23DC67C5289C26F4004961D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apple TV Renamer Client";
+			productName = "Apple TV Renamer Client";
+			productReference = 23DC67C7289C26F4004961D4 /* Apple TV Renamer Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23DC67D6289C2707004961D4 /* Apple TV Renamer ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23DC67EE289C2708004961D4 /* Build configuration list for PBXNativeTarget "Apple TV Renamer ClientTests" */;
+			buildPhases = (
+				23DC67D3289C2707004961D4 /* Sources */,
+				23DC67D4289C2707004961D4 /* Frameworks */,
+				23DC67D5289C2707004961D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23DC67D9289C2707004961D4 /* PBXTargetDependency */,
+			);
+			name = "Apple TV Renamer ClientTests";
+			productName = "Apple TV Renamer ClientTests";
+			productReference = 23DC67D7289C2707004961D4 /* Apple TV Renamer ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23DC67E0289C2708004961D4 /* Apple TV Renamer ClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23DC67F1289C2708004961D4 /* Build configuration list for PBXNativeTarget "Apple TV Renamer ClientUITests" */;
+			buildPhases = (
+				23DC67DD289C2708004961D4 /* Sources */,
+				23DC67DE289C2708004961D4 /* Frameworks */,
+				23DC67DF289C2708004961D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23DC67E3289C2708004961D4 /* PBXTargetDependency */,
+			);
+			name = "Apple TV Renamer ClientUITests";
+			productName = "Apple TV Renamer ClientUITests";
+			productReference = 23DC67E1289C2708004961D4 /* Apple TV Renamer ClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23DC67BF289C26F4004961D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					23DC67C6289C26F4004961D4 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					23DC67D6289C2707004961D4 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 23DC67C6289C26F4004961D4;
+					};
+					23DC67E0289C2708004961D4 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 23DC67C6289C26F4004961D4;
+					};
+				};
+			};
+			buildConfigurationList = 23DC67C2289C26F4004961D4 /* Build configuration list for PBXProject "Apple TV Renamer Client" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23DC67BE289C26F4004961D4;
+			productRefGroup = 23DC67C8289C26F4004961D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23DC67C6289C26F4004961D4 /* Apple TV Renamer Client */,
+				23DC67D6289C2707004961D4 /* Apple TV Renamer ClientTests */,
+				23DC67E0289C2708004961D4 /* Apple TV Renamer ClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23DC67C5289C26F4004961D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DC67D2289C2707004961D4 /* Preview Assets.xcassets in Resources */,
+				23DC67CF289C2707004961D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DC67D5289C2707004961D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DC67DF289C2708004961D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23DC67C3289C26F4004961D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DC67CD289C26F5004961D4 /* ContentView.swift in Sources */,
+				23DC67CB289C26F5004961D4 /* Apple_TV_Renamer_ClientApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DC67D3289C2707004961D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DC67DC289C2708004961D4 /* Apple_TV_Renamer_ClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DC67DD289C2708004961D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DC67E6289C2708004961D4 /* Apple_TV_Renamer_ClientUITests.swift in Sources */,
+				23DC67E8289C2708004961D4 /* Apple_TV_Renamer_ClientUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23DC67D9289C2707004961D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23DC67C6289C26F4004961D4 /* Apple TV Renamer Client */;
+			targetProxy = 23DC67D8289C2707004961D4 /* PBXContainerItemProxy */;
+		};
+		23DC67E3289C2708004961D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23DC67C6289C26F4004961D4 /* Apple TV Renamer Client */;
+			targetProxy = 23DC67E2289C2708004961D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23DC67E9289C2708004961D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+			};
+			name = Debug;
+		};
+		23DC67EA289C2708004961D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23DC67EC289C2708004961D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Apple TV Renamer Client/Preview Content\"";
+				DEVELOPMENT_TEAM = RU249Y3F3X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daltondurst.Apple-TV-Renamer-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		23DC67ED289C2708004961D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Apple TV Renamer Client/Preview Content\"";
+				DEVELOPMENT_TEAM = RU249Y3F3X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daltondurst.Apple-TV-Renamer-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		23DC67EF289C2708004961D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RU249Y3F3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daltondurst.Apple-TV-Renamer-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple TV Renamer Client.app/Apple TV Renamer Client";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+			};
+			name = Debug;
+		};
+		23DC67F0289C2708004961D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RU249Y3F3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daltondurst.Apple-TV-Renamer-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple TV Renamer Client.app/Apple TV Renamer Client";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+			};
+			name = Release;
+		};
+		23DC67F2289C2708004961D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RU249Y3F3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daltondurst.Apple-TV-Renamer-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Apple TV Renamer Client";
+			};
+			name = Debug;
+		};
+		23DC67F3289C2708004961D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RU249Y3F3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daltondurst.Apple-TV-Renamer-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Apple TV Renamer Client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23DC67C2289C26F4004961D4 /* Build configuration list for PBXProject "Apple TV Renamer Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DC67E9289C2708004961D4 /* Debug */,
+				23DC67EA289C2708004961D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23DC67EB289C2708004961D4 /* Build configuration list for PBXNativeTarget "Apple TV Renamer Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DC67EC289C2708004961D4 /* Debug */,
+				23DC67ED289C2708004961D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23DC67EE289C2708004961D4 /* Build configuration list for PBXNativeTarget "Apple TV Renamer ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DC67EF289C2708004961D4 /* Debug */,
+				23DC67F0289C2708004961D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23DC67F1289C2708004961D4 /* Build configuration list for PBXNativeTarget "Apple TV Renamer ClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DC67F2289C2708004961D4 /* Debug */,
+				23DC67F3289C2708004961D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23DC67BF289C26F4004961D4 /* Project object */;
+}
