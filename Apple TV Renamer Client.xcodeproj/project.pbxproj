@@ -48,6 +48,9 @@
 		23DC67E5289C2708004961D4 /* Apple_TV_Renamer_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_Renamer_ClientUITests.swift; sourceTree = "<group>"; };
 		23DC67E7289C2708004961D4 /* Apple_TV_Renamer_ClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_Renamer_ClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		23DC67F6289C2958004961D4 /* TextFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormView.swift; sourceTree = "<group>"; };
+		E8F43235289D5C50003C0C44 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E8F43236289D5FD2003C0C44 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E8F43237289D5FD2003C0C44 /* NOTICE */ = {isa = PBXFileReference; lastKnownFileType = text; path = NOTICE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,9 @@
 		23DC67BE289C26F4004961D4 = {
 			isa = PBXGroup;
 			children = (
+				E8F43236289D5FD2003C0C44 /* LICENSE */,
+				E8F43237289D5FD2003C0C44 /* NOTICE */,
+				E8F43235289D5C50003C0C44 /* README.md */,
 				23DC67C9289C26F4004961D4 /* Apple TV Renamer Client */,
 				23DC67DA289C2707004961D4 /* Apple TV Renamer ClientTests */,
 				23DC67E4289C2708004961D4 /* Apple TV Renamer ClientUITests */,
