@@ -8,29 +8,48 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var activePage: Int = 1
     var form: ServerForm
+    @State var formOutput: FormOutput
     var body: some View {
         NavigationView() {
-            RecursiveFormPageNavigation(formPages: form.pages)
+            RecursiveFormPageNavigation(formPages: form.pages.reversed(), output: $formOutput) {
+                List(formOutput.output) { page in
+                    if let pageText = page.pageOutput {
+                        Text(pageText)
+                    } else {
+                        Text("Page \(page.pageId) had no output text")
+                    }
+                }
+            }
         }
     }
 }
 
-// Not sure how to make the last page configurable yet. Maybe https://www.swiftbysundell.com/tips/swiftui-extensions-using-generics/ can help?
-struct RecursiveFormPageNavigation: View {
+struct RecursiveFormPageNavigation<Content: View>: View {
     var formPages: [FormPage]
+    @Binding var output: FormOutput
+    @State private var userInput: String = ""
+    @ViewBuilder var finalPage: Content
     @ViewBuilder var body: some View {
         var wipPages = formPages
         if let thisPage = wipPages.popLast() {
-            VStack {
-                Text(thisPage.title)
-                NavigationLink("Next") {
-                    RecursiveFormPageNavigation(formPages: wipPages)
+            let navigation = NavigationLink("Next") {
+                RecursiveFormPageNavigation(formPages: wipPages, output: $output) {
+                    finalPage
+                }
+            }
+            if thisPage.type == .textInput {
+                VStack {
+                    Text(thisPage.title)
+                    TextField(thisPage.inputLabel, text: $userInput)
+                        .onSubmit {
+                            output.output.append(FormPageOutput(pageId: thisPage.id, pageOutput: userInput))
+                        }
+                    navigation
                 }
             }
         } else {
-            VStack {Text("All done!")}
+            finalPage
         }
     }
 }
@@ -38,7 +57,7 @@ struct RecursiveFormPageNavigation: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView(form: previewForm)
+            ContentView(form: previewForm, formOutput: FormOutput(output: [FormPageOutput(pageId: UUID(), pageOutput: "test")]))
         }
     }
 }

@@ -9,7 +9,7 @@ import Foundation
 
 struct ServerForm: Identifiable {
     let id = UUID()
-    let pages: Array<FormPage>
+    let pages: [FormPage]
     let title: String
 }
 
@@ -23,6 +23,17 @@ struct FormPage: Identifiable {
 
 enum FormPageType {
     case textInput
+}
+
+struct FormOutput: Identifiable {
+    let id = UUID()
+    var output: [FormPageOutput] = []
+}
+
+struct FormPageOutput: Identifiable {
+    let id = UUID()
+    let pageId: UUID
+    let pageOutput: String
 }
 
 let previewPages = [FormPage(type: .textInput, title: "Page 1", inputLabel: "Enter building", icon: "building.fill"), FormPage(type: .textInput, title: "Page 2", inputLabel: "Enter room number", icon: "square.fill")]

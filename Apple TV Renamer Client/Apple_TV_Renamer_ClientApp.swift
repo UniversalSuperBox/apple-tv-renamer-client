@@ -11,7 +11,7 @@ import SwiftUI
 struct Apple_TV_Renamer_ClientApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(form: previewForm)
+            ContentView(form: previewForm, formOutput: FormOutput(output: [FormPageOutput(pageId: UUID(), pageOutput: "test")]))
         }
     }
 }
